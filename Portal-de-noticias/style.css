@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/*
+#BABFBF
+#999999
+#D0D9D7
+#403434
+#736565
+*/
+
+:root{
+    --cor01:#BABFBF;
+    --cor02:#999999;
+    --cor03:#D0D9D7;
+    --cor04:#403434;
+    --cor05:#736565;
+}
+body{
+    background-color:#f0f7f7;
+}
+a{
+    text-decoration:none;
+}
+button{
+    border: 0;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+.navmenu{
+    height: 90px;
+    background-color: var(--cor05);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navmenu .logo>a{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--cor02);
+    margin-left: 12px;
+}
+.logo>a:hover{
+    color:var(--cor04)
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.menu-links{
+    display: flex;
+    gap: 24px;
+    border-right: 1px solid var(--cor02);
+    padding-inline: 24px;
+}
+.menu-links>a { 
+    font-weight: 500;
+    color: var(--cor02);
+    padding: 8px 16px;
+}
+.menu-links>a:hover{
+    color:var(--cor04)
+}
+.login{
+    font-weight: 500;
+    padding: 12px 22px;
+    background-color: transparent;
+    color:var(--cor02);
+    border-radius: 6px;
+    border: 2px solid var(--cor01);
+    transition: 0.2s;
+}
+.login:hover{
+    background-color:var(--cor01);
+    color: var(--cor04);
+}
+.menu-btn{
+    font-size: 32px;
+    color:  var(--cor02);
+    display: none;
+    cursor: pointer;
+}
+
+header {
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+.content {
+    display: flex; 
+    gap: 240px; 
+}
+
+.column {
+    display: flex;
+    flex-direction: column; 
+}
+
+.column > p{
+    text-align: justify;
+    width: 500px; 
+}
+.lol {
+    width: 100%; 
+}
+
+#tamanhoimag{
+    width: 450px;
+}
+
+/* colunas pronta */
+
+p{
+    text-align: justify;
+}
+h2{
+    text-align: center;
+    padding: 15px;
+    background-color: #736565;
+}
+.E-sportes, .Tecnologia {
+    background-color: #e7dbdb;
+}
+footer{
+    background-color: var(--cor04);
+    color: var(--cor01);
+}
+.redesocial{
+    width: 50px;
+    align-items: center;
+}
