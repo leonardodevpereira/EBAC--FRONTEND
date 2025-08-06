@@ -4,7 +4,7 @@
     const mensagem = document.getElementById('mensagem');
 
     formulario.addEventListener('submit', function(evento) {
-      evento.preventDefault(); // Impede o envio do formulário
+      evento.preventDefault(); 
 
       const valorA = Number(campoA.value);
       const valorB = Number(campoB.value);
